@@ -1,10 +1,11 @@
 <?php
 
-namespace model;
+namespace Model;
+
+use Model\Collection\CommentCollectionInterface;
 
 interface PostInterface
 {
-
     public function setId($id);
     public function getId();
 
@@ -14,7 +15,6 @@ interface PostInterface
     public function setContent($content);
     public function getContent();
 
-    public function setComments(array $comments);
+    public function setComments(CommentCollectionInterface $comments);
     public function getComments();
-
 }
