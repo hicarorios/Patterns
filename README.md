@@ -1,0 +1,1 @@
+Estes exemplos foram retirados dos artigos escritos por Alejandro Gervasio - http://www.sitepoint.com/
