@@ -1,5 +1,7 @@
 <?php
 
+use Library\SplClassLoader;
+
 require_once __DIR__ . "/Library/SplClassLoader.php";
 $autoloader = new SplClassLoader();
 $autoloader->register();
