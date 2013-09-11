@@ -28,6 +28,11 @@ local.properties
 # PDT-specific
 .buildpath
 
+#################
+## PhpStrom
+#################
+
+*.idea
 
 #################
 ## Visual Studio
