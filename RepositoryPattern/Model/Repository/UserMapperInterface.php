@@ -1,8 +1,8 @@
 <?php
 
-namespace Model\Mapper;
+namespace RepositoryPattern\Model\Repository;
 
-interface CommentMapperInterface
+interface UserMapperInterface
 {
     public function fetchById($id);
     public function fetchAll(array $conditions = array());

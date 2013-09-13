@@ -19,7 +19,6 @@ class CommentCollection implements CommentCollectionInterface
                 $this->addComment($comment);
             }
         }
-
     }
 
     /**
