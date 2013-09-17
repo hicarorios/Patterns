@@ -1,6 +1,6 @@
 <?php
 
-namespace RepositoryPattern\Model\Repository;
+namespace Repository\Model\Repository;
 
 class UserRepository implements UserRepositoryInterface
 {

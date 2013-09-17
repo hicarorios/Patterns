@@ -1,6 +1,6 @@
 <?php
 
-namespace RepositoryPattern\Model;
+namespace Repository\Model;
 
 interface UserInterface
 {

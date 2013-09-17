@@ -1,9 +1,9 @@
 <?php
 
-namespace RepositoryPattern\Model\Collection;
+namespace Repository\Model\Collection;
 
-use RepositoryPattern\Model\UserInterface,
-    RepositoryPattern\Mapper\UserCollectionInterface;
+use Repository\Model\UserInterface,
+    Repository\Mapper\UserCollectionInterface;
 
 class UserCollection implements UserCollectionInterface
 {

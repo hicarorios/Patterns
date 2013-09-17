@@ -1,9 +1,9 @@
 <?php
 
-namespace RepositoryPattern\Mapper;
+namespace Repository\Mapper;
 
-use RepositoryPattern\Model\Repository\UserMapperInterface,
-    RepositoryPattern\Model\User;
+use Repository\Model\Repository\UserMapperInterface,
+    Repository\Model\User;
 
 class UserMapper implements UserMapperInterface
 {

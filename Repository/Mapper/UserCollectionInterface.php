@@ -1,8 +1,8 @@
 <?php
 
-namespace RepositoryPattern\Mapper;
+namespace Repository\Mapper;
 
-use RepositoryPattern\Model\UserInterface;
+use Repository\Model\UserInterface;
 
 interface UserCollectionInterface extends \Countable, \ArrayAccess, \IteratorAggregate
 {
